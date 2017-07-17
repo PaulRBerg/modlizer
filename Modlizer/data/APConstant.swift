@@ -11,30 +11,13 @@ import UIKit
 class APConstant {
     
     /**
-        App related constants.
+     *  App related constants.
      */
     static let kAPAppName = "Modlizer"
 
     /**
-        Error responses.
+     *  Error responses.
      */
     static let kAPAppError = NSLocalizedString("Error occurred", comment: "")
     static let kAPAppErrorInternet = NSLocalizedString("Network error", comment: "")
-    
-    /**
-        Storyboard names.
-     */
-    static let kAPCredentialStoryboard = "Credential"
-    static let kAPForgotPasswordStoryboard = "ForgotPassword"
-    static let kAPPlaygroundStoryboard = "Playground"
-    
-    /**
-        View controller ID's from the Storyboard.
-     */
-    static let kAPLoginController = "loginController"
-    static let kAPSignUpController = "signUpController"
-    static let kAPEmailVerificationController = "emailVerificationController"
-    static let kAPForgotPasswordController = "forgotPasswordController"
-    static let kAPForgotPasswordSuccessViewController = "forgotPasswordSuccessController"
-    
 }

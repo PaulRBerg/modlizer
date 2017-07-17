@@ -14,12 +14,7 @@ extension APLoginViewController: UITextFieldDelegate {
      *  Append the fully configured text fields to the view controller.
      */
     func appendTextField() {
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 25, height: 25))
-        imageView.image = UIImage(named: "ic_question_mark")
-        imageView.isUserInteractionEnabled = true
-        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(APLoginViewController.didTapForgotPasswordButton)))
-        passwordTextField.rightViewMode = .always
-        passwordTextField.rightView = imageView
+        // Private method, not available for Modlizer.
     }
     
     /**

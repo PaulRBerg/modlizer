@@ -16,6 +16,9 @@ extension APLoginViewController {
      *  Simply logins the user using the classic email & password.
      */
     func login() {
+        APAlert.top(NSLocalizedString("Sample app, can't login", comment: ""))
+        return;
+            
         MBProgressHUD.showAdded(to: self.view, animated: true)
         FIRAuth.auth()?.signIn(withEmail: emailTextField.text!,
                                password: passwordTextField.text!,
